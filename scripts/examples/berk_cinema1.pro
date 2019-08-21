@@ -1,5 +1,9 @@
-;------------------
-; comparison of CINEMA1 32-bit and 20-bit data records (Berkeley Flight Unit)
+;+
+; NAME: 
+;    BERK_CINEMA1
+; 
+; PURPOSE:
+;    comparison of CINEMA1 32-bit and 20-bit data records (Berkeley Flight Unit)
 ;
 ; berk_cinema1 - "UC Berkeley Flight Model #1 (CINEMA 1)"
 ; 
@@ -24,9 +28,9 @@
 ; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 ; See the License for the specific language governing permissions and
 ; limitations under the License.
-;------------------
+;-
 PRO BERK_CINEMA1, XRANGE=x__range, YRANGE=y__range, XTITLE=x__title, YTITLE=y__title
-; for use with raw output of STEIN instrument (32-bit event record)
+    ; for use with raw output of STEIN instrument (32-bit event record)
 
     ; load event-lists
     ; FIRST, from RAW DATA
